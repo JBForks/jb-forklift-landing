@@ -10,36 +10,36 @@ const container: React.CSSProperties = {
   padding: '0 20px',
 };
 
-const red = '#990000';
-const light = '#faf7f7';
+const navyBlue = '#1E3A8A';
+const gold = '#D4AF37';
+const light = '#F8FAFC';
 
 export default function Home() {
   return (
     <main>
       {/* Header */}
-      <header style={{ background: '#fff', borderBottom: '1px solid #eee' }}>
-        <div style={{ ...container, padding: '16px 20px' }}>
-          <h1 style={{ margin: 0, color: red }}>JB Forklift Training</h1>
-          <p style={{ margin: '6px 0 0 0', color: '#444' }}>
-            RTITB Accredited Training Provider
-          </p>
-          <p style={{ margin: 0, color: '#666', fontSize: 14 }}>
-            Unit 2, Ballyvourney Industrial Estate, Ballyvourney, Co. Cork • Tel: 0863954279 • Email: jbforklifttraining@gmail.com
-          </p>
+      <header style={{ background: '#fff', borderBottom: '2px solid #D4AF37' }}>
+        <div style={{ ...container, padding: '20px 20px', display: 'flex', alignItems: 'center', gap: 16 }}>
+          <img src="/logo.png" alt="JB Forklift Training Logo" style={{ height: 60 }} />
+          <div style={{ flex: 1 }}>
+            <p style={{ margin: 0, color: '#666', fontSize: 14 }}>
+              Unit 2, Ballyvourney Industrial Estate, Ballyvourney, Co. Cork • Tel: 0863954279 • Email: jbforklifttraining@gmail.com
+            </p>
+          </div>
         </div>
       </header>
 
       {/* Hero */}
       <section style={{ background: light, padding: '48px 0' }}>
         <div style={container}>
-          <h2 style={{ color: red, marginTop: 0 }}>Forklift Training — Onsite, Flexible, Accredited</h2>
+          <h2 style={{ color: navyBlue, marginTop: 0 }}>Forklift Training — Onsite, Flexible, Accredited</h2>
           <p style={{ fontSize: 16, lineHeight: 1.7 }}>
             We provide professional forklift training across Cork and Munster. Training available days, nights and weekends to suit your operation.
             Courses include Counterbalance, Reach, Stacker, Power Pallet Truck and Manual Handling.
           </p>
           <a href="#contact" style={{
               display: 'inline-block',
-              background: red,
+              background: navyBlue,
               color: '#fff',
               padding: '12px 18px',
               borderRadius: 6,
@@ -54,7 +54,7 @@ export default function Home() {
       {/* Onsite Benefits */}
       <section style={{ padding: '48px 0' }}>
         <div style={container}>
-          <h3 style={{ color: red, marginTop: 0 }}>Why Onsite Training Works Best</h3>
+          <h3 style={{ color: navyBlue, marginTop: 0 }}>Why Onsite Training Works Best</h3>
           <p style={{ fontSize: 16, lineHeight: 1.7 }}>
             Onsite training means your team learns in their real work environment, on your own forklifts and layout.
             Our instructor can identify site‑specific hazards during the session and address them in real time.
@@ -73,7 +73,7 @@ export default function Home() {
       {/* Courses */}
       <section style={{ background: light, padding: '40px 0' }}>
         <div style={container}>
-          <h3 style={{ color: red, marginTop: 0 }}>Courses Offered</h3>
+          <h3 style={{ color: navyBlue, marginTop: 0 }}>Courses Offered</h3>
           <ul style={{ marginTop: 12, paddingLeft: 18 }}>
             <li>Counterbalance</li>
             <li>Reach</li>
@@ -87,7 +87,7 @@ export default function Home() {
       {/* Training Gallery Section */}
       <section style={{ padding: '48px 0', background: '#fff' }}>
         <div style={{ maxWidth: 960, margin: '0 auto', padding: '0 20px' }}>
-          <h3 style={{ color: '#990000', marginTop: 0, textAlign: 'center' }}>Training Gallery</h3>
+          <h3 style={{ color: navyBlue, marginTop: 0, textAlign: 'center' }}>Training Gallery</h3>
           <p style={{ fontSize: 16, lineHeight: 1.7, textAlign: 'center', marginBottom: 32 }}>
             Professional training sessions across all our accredited courses.
           </p>
@@ -104,7 +104,8 @@ export default function Home() {
                 overflow: 'hidden',
                 borderRadius: 8,
                 marginBottom: 12,
-                background: '#f5f5f5'
+                background: '#f5f5f5',
+                border: `2px solid ${gold}`
               }}>
                 <img 
                   src="/counterbalance.jpeg" 
@@ -116,7 +117,7 @@ export default function Home() {
                   }} 
                 />
               </div>
-              <h4 style={{ margin: '0 0 4px 0', color: red, fontSize: 18 }}>Counterbalance</h4>
+              <h4 style={{ margin: '0 0 4px 0', color: navyBlue, fontSize: 18 }}>Counterbalance</h4>
               <p style={{ margin: 0, fontSize: 14, color: '#666' }}>Onsite certification training</p>
             </div>
 
@@ -128,7 +129,8 @@ export default function Home() {
                 overflow: 'hidden',
                 borderRadius: 8,
                 marginBottom: 12,
-                background: '#f5f5f5'
+                background: '#f5f5f5',
+                border: `2px solid ${gold}`
               }}>
                 <img 
                   src="/reach.jpg" 
@@ -140,7 +142,7 @@ export default function Home() {
                   }} 
                 />
               </div>
-              <h4 style={{ margin: '0 0 4px 0', color: red, fontSize: 18 }}>Reach Truck</h4>
+              <h4 style={{ margin: '0 0 4px 0', color: navyBlue, fontSize: 18 }}>Reach Truck</h4>
               <p style={{ margin: 0, fontSize: 14, color: '#666' }}>High-level warehouse operations</p>
             </div>
 
@@ -152,7 +154,8 @@ export default function Home() {
                 overflow: 'hidden',
                 borderRadius: 8,
                 marginBottom: 12,
-                background: '#f5f5f5'
+                background: '#f5f5f5',
+                border: `2px solid ${gold}`
               }}>
                 <img 
                   src="/stacker.png" 
@@ -164,7 +167,7 @@ export default function Home() {
                   }} 
                 />
               </div>
-              <h4 style={{ margin: '0 0 4px 0', color: red, fontSize: 18 }}>Stacker</h4>
+              <h4 style={{ margin: '0 0 4px 0', color: navyBlue, fontSize: 18 }}>Stacker</h4>
               <p style={{ margin: 0, fontSize: 14, color: '#666' }}>Compact lifting solutions</p>
             </div>
 
@@ -176,7 +179,8 @@ export default function Home() {
                 overflow: 'hidden',
                 borderRadius: 8,
                 marginBottom: 12,
-                background: '#f5f5f5'
+                background: '#f5f5f5',
+                border: `2px solid ${gold}`
               }}>
                 <img 
                   src="/power-pallet.jpg" 
@@ -188,7 +192,7 @@ export default function Home() {
                   }} 
                 />
               </div>
-              <h4 style={{ margin: '0 0 4px 0', color: red, fontSize: 18 }}>Power Pallet Truck</h4>
+              <h4 style={{ margin: '0 0 4px 0', color: navyBlue, fontSize: 18 }}>Power Pallet Truck</h4>
               <p style={{ margin: 0, fontSize: 14, color: '#666' }}>Efficient material handling</p>
             </div>
 
@@ -200,7 +204,8 @@ export default function Home() {
                 overflow: 'hidden',
                 borderRadius: 8,
                 marginBottom: 12,
-                background: '#f5f5f5'
+                background: '#f5f5f5',
+                border: `2px solid ${gold}`
               }}>
                 <img 
                   src="/manual-handling.webp" 
@@ -212,7 +217,7 @@ export default function Home() {
                   }} 
                 />
               </div>
-              <h4 style={{ margin: '0 0 4px 0', color: red, fontSize: 18 }}>Manual Handling</h4>
+              <h4 style={{ margin: '0 0 4px 0', color: navyBlue, fontSize: 18 }}>Manual Handling</h4>
               <p style={{ margin: 0, fontSize: 14, color: '#666' }}>Safe lifting techniques</p>
             </div>
           </div>
@@ -222,7 +227,7 @@ export default function Home() {
       {/* Contact */}
       <section id="contact" style={{ padding: '48px 0', background: light }}>
         <div style={container}>
-          <h3 style={{ color: red, marginTop: 0 }}>Book a Course / Send a Message</h3>
+          <h3 style={{ color: navyBlue, marginTop: 0 }}>Book a Course / Send a Message</h3>
           <p style={{ marginBottom: 16 }}>
             Fill out the form and we'll get back to you shortly.
           </p>
@@ -248,8 +253,8 @@ export default function Home() {
       </section>
 
       {/* Footer */}
-      <footer style={{ background: '#fff', borderTop: '1px solid #eee' }}>
-        <div style={{ ...container, padding: '16px 20px', fontSize: 14, color: '#555' }}>
+      <footer style={{ background: navyBlue, color: '#fff', borderTop: `3px solid ${gold}` }}>
+        <div style={{ ...container, padding: '20px 20px', fontSize: 14 }}>
           JB Forklift Training • Unit 2, Ballyvourney Industrial Estate, Ballyvourney, Co. Cork • Tel: 0863954279 • Email: jbforklifttraining@gmail.com
         </div>
       </footer>
@@ -265,7 +270,7 @@ const inputStyle: React.CSSProperties = {
 };
 
 const buttonStyle: React.CSSProperties = {
-  background: red,
+  background: navyBlue,
   color: '#fff',
   border: 'none',
   padding: '12px 18px',
