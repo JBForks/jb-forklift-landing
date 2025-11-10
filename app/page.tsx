@@ -55,7 +55,7 @@ export default function Home() {
           <h2 style={{ color: navyBlue, marginTop: 0 }}>Forklift Training — Onsite, Flexible, Accredited</h2>
           <p style={{ fontSize: 16, lineHeight: 1.7 }}>
             We provide professional forklift training across Cork and Munster. Training available days, nights and weekends to suit your operation.
-            Courses include Counterbalance, Reach, Stacker, Power Pallet Truck and Manual Handling.
+            Courses include Counterbalance Forklift, Reach Forklift, Stacker, Power Pallet Truck and Manual Handling.
           </p>
           <a href="#contact" style={{
               display: 'inline-block',
@@ -95,8 +95,8 @@ export default function Home() {
         <div style={container}>
           <h3 style={{ color: navyBlue, marginTop: 0 }}>Courses Offered</h3>
           <ul style={{ marginTop: 12, paddingLeft: 18 }}>
-            <li>Counterbalance</li>
-            <li>Reach</li>
+            <li>Counterbalance Forklift</li>
+            <li>Reach Forklift</li>
             <li>Stacker</li>
             <li>Power Pallet Truck (PPT)</li>
             <li>Manual Handling</li>
@@ -129,7 +129,7 @@ export default function Home() {
               }}>
                 <img 
                   src="/counterbalance.jpeg" 
-                  alt="Counterbalance Training" 
+                  alt="Counterbalance Forklift Training" 
                   style={{ 
                     width: '100%', 
                     height: '100%', 
@@ -137,7 +137,7 @@ export default function Home() {
                   }} 
                 />
               </div>
-              <h4 style={{ margin: '0 0 4px 0', color: navyBlue, fontSize: 18 }}>Counterbalance</h4>
+              <h4 style={{ margin: '0 0 4px 0', color: navyBlue, fontSize: 18 }}>Counterbalance Forklift</h4>
               <p style={{ margin: 0, fontSize: 14, color: '#666' }}>Onsite certification training</p>
             </div>
 
@@ -154,7 +154,7 @@ export default function Home() {
               }}>
                 <img 
                   src="/reach.jpg" 
-                  alt="Reach Truck Training" 
+                  alt="Reach Forklift Training" 
                   style={{ 
                     width: '100%', 
                     height: '100%', 
@@ -162,7 +162,7 @@ export default function Home() {
                   }} 
                 />
               </div>
-              <h4 style={{ margin: '0 0 4px 0', color: navyBlue, fontSize: 18 }}>Reach Truck</h4>
+              <h4 style={{ margin: '0 0 4px 0', color: navyBlue, fontSize: 18 }}>Reach Forklift</h4>
               <p style={{ margin: 0, fontSize: 14, color: '#666' }}>High-level warehouse operations</p>
             </div>
 
@@ -257,8 +257,8 @@ export default function Home() {
             <input name="phone" placeholder="Phone (optional)" style={inputStyle} />
             <select name="course" style={inputStyle}>
               <option value="">Select a course (optional)</option>
-              <option>Counterbalance</option>
-              <option>Reach</option>
+              <option>Counterbalance Forklift</option>
+              <option>Reach Forklift</option>
               <option>Stacker</option>
               <option>Power Pallet Truck</option>
               <option>Manual Handling</option>
