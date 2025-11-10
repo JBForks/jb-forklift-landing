@@ -22,14 +22,14 @@ export default function Home() {
         <div style={{ 
           maxWidth: 960, 
           margin: '0 auto', 
-          padding: '32px 20px', 
+          padding: '40px 20px', 
           display: 'flex', 
           flexDirection: 'column',
           alignItems: 'center', 
           textAlign: 'center',
-          gap: 20 
+          gap: 24 
         }}>
-          <img src="/jb-logo.png" alt="JB Forklift Training Logo" style={{ height: 120 }} />
+          <img src="/jb-logo.png" alt="JB Forklift Training Logo" style={{ height: 240 }} />
           <div>
             <h1 style={{ margin: 0, color: '#1E3A8A', fontSize: 28 }}>JB Forklift Training</h1>
             <p style={{ margin: '4px 0 0 0', color: '#666', fontSize: 16 }}>
