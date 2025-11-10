@@ -251,7 +251,7 @@ export default function Home() {
           <p style={{ marginBottom: 16 }}>
             Fill out the form and we'll get back to you shortly.
           </p>
-          <form action="#" method="POST" style={{ display: 'grid', gap: 12, maxWidth: 560 }}>
+          <form action="https://formspree.io/f/mkgknnzn" method="POST" style={{ display: 'grid', gap: 12, maxWidth: 560 }}>
             <input name="name" placeholder="Your Name" required style={inputStyle} />
             <input name="email" type="email" placeholder="Your Email" required style={inputStyle} />
             <input name="phone" placeholder="Phone (optional)" style={inputStyle} />
@@ -266,9 +266,6 @@ export default function Home() {
             <textarea name="message" placeholder="How can we help?" rows={5} required style={inputStyle} />
             <button type="submit" style={buttonStyle}>Send</button>
           </form>
-          <p style={{ fontSize: 12, color: '#666', marginTop: 8 }}>
-            Tip: After deployment, replace the form's action with your Formspree URL to receive emails.
-          </p>
         </div>
       </section>
 
