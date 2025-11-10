@@ -1,4 +1,3 @@
-
 export const metadata = {
   title: 'JB Forklift Training - Professional Onsite Training Cork & Munster',
   description:
@@ -85,12 +84,34 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Training Gallery Section */}
+      <section style={{ padding: '48px 0', background: '#fff' }}>
+        <div style={{ maxWidth: 960, margin: '0 auto', padding: '0 20px' }}>
+          <h3 style={{ color: '#990000', marginTop: 0 }}>Training Gallery</h3>
+          <p style={{ fontSize: 16, lineHeight: 1.7 }}>
+            A few photos from our accredited forklift and manual handling training sessions.
+          </p>
+          <div style={{
+            display: 'grid',
+            gridTemplateColumns: 'repeat(auto-fit, minmax(220px, 1fr))',
+            gap: 16,
+            marginTop: 20
+          }}>
+            <img src="/counterbalance.jpeg" alt="Counterbalance Training" style={{ width: '100%', borderRadius: 8 }} />
+            <img src="/reach.jpg" alt="Reach Truck Training" style={{ width: '100%', borderRadius: 8 }} />
+            <img src="/stacker.png" alt="Stacker Training" style={{ width: '100%', borderRadius: 8, background: '#fff' }} />
+            <img src="/power-pallet.jpg" alt="Power Pallet Training" style={{ width: '100%', borderRadius: 8 }} />
+            <img src="/manual-handling.webp" alt="Manual Handling Training" style={{ width: '100%', borderRadius: 8 }} />
+          </div>
+        </div>
+      </section>
+
       {/* Contact */}
-      <section id="contact" style={{ padding: '48px 0' }}>
+      <section id="contact" style={{ padding: '48px 0', background: light }}>
         <div style={container}>
           <h3 style={{ color: red, marginTop: 0 }}>Book a Course / Send a Message</h3>
           <p style={{ marginBottom: 16 }}>
-            Fill out the form and we’ll get back to you shortly.
+            Fill out the form and we'll get back to you shortly.
           </p>
           <form action="#" method="POST" style={{ display: 'grid', gap: 12, maxWidth: 560 }}>
             <input name="name" placeholder="Your Name" required style={inputStyle} />
@@ -103,32 +124,12 @@ export default function Home() {
               <option>Stacker</option>
               <option>Power Pallet Truck</option>
               <option>Manual Handling</option>
-{/* Training Gallery Section */}
-<section style={{ padding: '48px 0', background: '#faf7f7' }}>
-  <div style={{ maxWidth: 960, margin: '0 auto', padding: '0 20px' }}>
-    <h3 style={{ color: '#990000', marginTop: 0 }}>Training Gallery</h3>
-    <p style={{ fontSize: 16, lineHeight: 1.7 }}>
-      A few photos from our accredited forklift and manual handling training sessions.
-    </p>
-    <div style={{
-      display: 'grid',
-      gridTemplateColumns: 'repeat(auto-fit, minmax(220px, 1fr))',
-      gap: 16,
-      marginTop: 20
-    }}>
-      <img src="/replit counter balance.jpeg" alt="Counterbalance Training" style={{ width: '100%', borderRadius: 8 }} />
-      <img src="/replit reach .jpg" alt="Reach Truck Training" style={{ width: '100%', borderRadius: 8 }} />
-      <img src="/stacker replit.png" alt="Stacker Training" style={{ width: '100%', borderRadius: 8, background: '#fff' }} />
-      <img src="/replit power pallet.jpg" alt="Power Pallet Training" style={{ width: '100%', borderRadius: 8 }} />
-      <img src="/Manual Handling replit.webp" alt="Manual Handling Training" style={{ width: '100%', borderRadius: 8 }} />
-    </div>
-  </div>
-</section></select>
+            </select>
             <textarea name="message" placeholder="How can we help?" rows={5} required style={inputStyle} />
             <button type="submit" style={buttonStyle}>Send</button>
           </form>
           <p style={{ fontSize: 12, color: '#666', marginTop: 8 }}>
-            Tip: After deployment, replace the form’s action with your Formspree URL to receive emails.
+            Tip: After deployment, replace the form's action with your Formspree URL to receive emails.
           </p>
         </div>
       </section>
