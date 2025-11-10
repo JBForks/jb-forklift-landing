@@ -87,21 +87,134 @@ export default function Home() {
       {/* Training Gallery Section */}
       <section style={{ padding: '48px 0', background: '#fff' }}>
         <div style={{ maxWidth: 960, margin: '0 auto', padding: '0 20px' }}>
-          <h3 style={{ color: '#990000', marginTop: 0 }}>Training Gallery</h3>
-          <p style={{ fontSize: 16, lineHeight: 1.7 }}>
-            A few photos from our accredited forklift and manual handling training sessions.
+          <h3 style={{ color: '#990000', marginTop: 0, textAlign: 'center' }}>Training Gallery</h3>
+          <p style={{ fontSize: 16, lineHeight: 1.7, textAlign: 'center', marginBottom: 32 }}>
+            Professional training sessions across all our accredited courses.
           </p>
           <div style={{
             display: 'grid',
-            gridTemplateColumns: 'repeat(auto-fit, minmax(220px, 1fr))',
-            gap: 16,
-            marginTop: 20
+            gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))',
+            gap: 24,
           }}>
-            <img src="/counterbalance.jpeg" alt="Counterbalance Training" style={{ width: '100%', borderRadius: 8 }} />
-            <img src="/reach.jpg" alt="Reach Truck Training" style={{ width: '100%', borderRadius: 8 }} />
-            <img src="/stacker.png" alt="Stacker Training" style={{ width: '100%', borderRadius: 8, background: '#fff' }} />
-            <img src="/power-pallet.jpg" alt="Power Pallet Training" style={{ width: '100%', borderRadius: 8 }} />
-            <img src="/manual-handling.webp" alt="Manual Handling Training" style={{ width: '100%', borderRadius: 8 }} />
+            {/* Counterbalance */}
+            <div style={{ textAlign: 'center' }}>
+              <div style={{
+                width: '100%',
+                height: 220,
+                overflow: 'hidden',
+                borderRadius: 8,
+                marginBottom: 12,
+                background: '#f5f5f5'
+              }}>
+                <img 
+                  src="/counterbalance.jpeg" 
+                  alt="Counterbalance Training" 
+                  style={{ 
+                    width: '100%', 
+                    height: '100%', 
+                    objectFit: 'cover' 
+                  }} 
+                />
+              </div>
+              <h4 style={{ margin: '0 0 4px 0', color: red, fontSize: 18 }}>Counterbalance</h4>
+              <p style={{ margin: 0, fontSize: 14, color: '#666' }}>Onsite certification training</p>
+            </div>
+
+            {/* Reach */}
+            <div style={{ textAlign: 'center' }}>
+              <div style={{
+                width: '100%',
+                height: 220,
+                overflow: 'hidden',
+                borderRadius: 8,
+                marginBottom: 12,
+                background: '#f5f5f5'
+              }}>
+                <img 
+                  src="/reach.jpg" 
+                  alt="Reach Truck Training" 
+                  style={{ 
+                    width: '100%', 
+                    height: '100%', 
+                    objectFit: 'cover' 
+                  }} 
+                />
+              </div>
+              <h4 style={{ margin: '0 0 4px 0', color: red, fontSize: 18 }}>Reach Truck</h4>
+              <p style={{ margin: 0, fontSize: 14, color: '#666' }}>High-level warehouse operations</p>
+            </div>
+
+            {/* Stacker */}
+            <div style={{ textAlign: 'center' }}>
+              <div style={{
+                width: '100%',
+                height: 220,
+                overflow: 'hidden',
+                borderRadius: 8,
+                marginBottom: 12,
+                background: '#f5f5f5'
+              }}>
+                <img 
+                  src="/stacker.png" 
+                  alt="Stacker Training" 
+                  style={{ 
+                    width: '100%', 
+                    height: '100%', 
+                    objectFit: 'cover' 
+                  }} 
+                />
+              </div>
+              <h4 style={{ margin: '0 0 4px 0', color: red, fontSize: 18 }}>Stacker</h4>
+              <p style={{ margin: 0, fontSize: 14, color: '#666' }}>Compact lifting solutions</p>
+            </div>
+
+            {/* Power Pallet */}
+            <div style={{ textAlign: 'center' }}>
+              <div style={{
+                width: '100%',
+                height: 220,
+                overflow: 'hidden',
+                borderRadius: 8,
+                marginBottom: 12,
+                background: '#f5f5f5'
+              }}>
+                <img 
+                  src="/power-pallet.jpg" 
+                  alt="Power Pallet Training" 
+                  style={{ 
+                    width: '100%', 
+                    height: '100%', 
+                    objectFit: 'cover' 
+                  }} 
+                />
+              </div>
+              <h4 style={{ margin: '0 0 4px 0', color: red, fontSize: 18 }}>Power Pallet Truck</h4>
+              <p style={{ margin: 0, fontSize: 14, color: '#666' }}>Efficient material handling</p>
+            </div>
+
+            {/* Manual Handling */}
+            <div style={{ textAlign: 'center' }}>
+              <div style={{
+                width: '100%',
+                height: 220,
+                overflow: 'hidden',
+                borderRadius: 8,
+                marginBottom: 12,
+                background: '#f5f5f5'
+              }}>
+                <img 
+                  src="/manual-handling.webp" 
+                  alt="Manual Handling Training" 
+                  style={{ 
+                    width: '100%', 
+                    height: '100%', 
+                    objectFit: 'cover' 
+                  }} 
+                />
+              </div>
+              <h4 style={{ margin: '0 0 4px 0', color: red, fontSize: 18 }}>Manual Handling</h4>
+              <p style={{ margin: 0, fontSize: 14, color: '#666' }}>Safe lifting techniques</p>
+            </div>
           </div>
         </div>
       </section>
