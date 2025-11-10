@@ -19,7 +19,7 @@ export default function Home() {
     <main>
       {/* Header */}
       <header style={{ background: '#fff', borderBottom: '2px solid #D4AF37' }}>
-        <div style={{ ...container, padding: '20px 20px', display: 'flex', alignItems: 'center', gap: 16 }}>
+        <img src="/jb-logo.png" alt="JB Forklift Training Logo" style={{ height: 56 }} />
           <img src="/logo.png" alt="JB Forklift Training Logo" style={{ height: 60 }} />
           <div style={{ flex: 1 }}>
             <p style={{ margin: 0, color: '#666', fontSize: 14 }}>
