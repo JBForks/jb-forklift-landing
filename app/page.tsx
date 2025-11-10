@@ -103,7 +103,27 @@ export default function Home() {
               <option>Stacker</option>
               <option>Power Pallet Truck</option>
               <option>Manual Handling</option>
-            </select>
+{/* Training Gallery Section */}
+<section style={{ padding: '48px 0', background: '#faf7f7' }}>
+  <div style={{ maxWidth: 960, margin: '0 auto', padding: '0 20px' }}>
+    <h3 style={{ color: '#990000', marginTop: 0 }}>Training Gallery</h3>
+    <p style={{ fontSize: 16, lineHeight: 1.7 }}>
+      A few photos from our accredited forklift and manual handling training sessions.
+    </p>
+    <div style={{
+      display: 'grid',
+      gridTemplateColumns: 'repeat(auto-fit, minmax(220px, 1fr))',
+      gap: 16,
+      marginTop: 20
+    }}>
+      <img src="/replit counter balance.jpeg" alt="Counterbalance Training" style={{ width: '100%', borderRadius: 8 }} />
+      <img src="/replit reach .jpg" alt="Reach Truck Training" style={{ width: '100%', borderRadius: 8 }} />
+      <img src="/stacker replit.png" alt="Stacker Training" style={{ width: '100%', borderRadius: 8, background: '#fff' }} />
+      <img src="/replit power pallet.jpg" alt="Power Pallet Training" style={{ width: '100%', borderRadius: 8 }} />
+      <img src="/Manual Handling replit.webp" alt="Manual Handling Training" style={{ width: '100%', borderRadius: 8 }} />
+    </div>
+  </div>
+</section></select>
             <textarea name="message" placeholder="How can we help?" rows={5} required style={inputStyle} />
             <button type="submit" style={buttonStyle}>Send</button>
           </form>
