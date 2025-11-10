@@ -55,7 +55,7 @@ export default function Home() {
           <h2 style={{ color: navyBlue, marginTop: 0 }}>Forklift Training — Onsite, Flexible, Accredited</h2>
           <p style={{ fontSize: 16, lineHeight: 1.7 }}>
             We provide professional forklift training across Cork and Munster. Training available days, nights and weekends to suit your operation.
-            Courses include Counterbalance Forklift, Reach Forklift, Stacker, Power Pallet Truck and Manual Handling.
+            Courses include Counterbalance Forklift, Reach Forklift, Stacker Pallet Truck, Power Pallet Truck and Manual Handling.
           </p>
           <a href="#contact" style={{
               display: 'inline-block',
@@ -97,7 +97,7 @@ export default function Home() {
           <ul style={{ marginTop: 12, paddingLeft: 18 }}>
             <li>Counterbalance Forklift</li>
             <li>Reach Forklift</li>
-            <li>Stacker</li>
+            <li>Stacker Pallet Truck</li>
             <li>Power Pallet Truck (PPT)</li>
             <li>Manual Handling</li>
           </ul>
@@ -179,7 +179,7 @@ export default function Home() {
               }}>
                 <img 
                   src="/stacker.png" 
-                  alt="Stacker Training" 
+                  alt="Stacker Pallet Truck Training" 
                   style={{ 
                     width: '100%', 
                     height: '100%', 
@@ -187,7 +187,7 @@ export default function Home() {
                   }} 
                 />
               </div>
-              <h4 style={{ margin: '0 0 4px 0', color: navyBlue, fontSize: 18 }}>Stacker</h4>
+              <h4 style={{ margin: '0 0 4px 0', color: navyBlue, fontSize: 18 }}>Stacker Pallet Truck</h4>
               <p style={{ margin: 0, fontSize: 14, color: '#666' }}>Compact lifting solutions</p>
             </div>
 
@@ -259,7 +259,7 @@ export default function Home() {
               <option value="">Select a course (optional)</option>
               <option>Counterbalance Forklift</option>
               <option>Reach Forklift</option>
-              <option>Stacker</option>
+              <option>Stacker Pallet Truck</option>
               <option>Power Pallet Truck</option>
               <option>Manual Handling</option>
             </select>
