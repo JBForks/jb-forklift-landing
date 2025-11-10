@@ -22,25 +22,27 @@ export default function Home() {
         <div style={{ 
           maxWidth: 960, 
           margin: '0 auto', 
-          padding: '20px 20px', 
+          padding: '28px 20px', 
           display: 'flex', 
+          flexDirection: 'column',
           alignItems: 'center', 
+          textAlign: 'center',
           gap: 16 
         }}>
-          <img src="/jb-logo.png" alt="JB Forklift Training Logo" style={{ height: 56 }} />
+          <img src="/jb-logo.png" alt="JB Forklift Training Logo" style={{ height: 80 }} />
           <div>
-            <h1 style={{ margin: 0, color: '#1E3A8A', fontSize: 22 }}>JB Forklift Training</h1>
-            <p style={{ margin: 0, color: '#666', fontSize: 14 }}>
+            <h1 style={{ margin: 0, color: '#1E3A8A', fontSize: 28 }}>JB Forklift Training</h1>
+            <p style={{ margin: '4px 0 0 0', color: '#666', fontSize: 16 }}>
               RTITB Accredited Training Provider
             </p>
           </div>
         </div>
-        <div style={{ background: '#F8FAFC', borderTop: '1px solid #eee', padding: '6px 0' }}>
+        <div style={{ background: '#F8FAFC', borderTop: '1px solid #eee', padding: '8px 0' }}>
           <p style={{ 
             margin: 0, 
             color: '#555', 
             textAlign: 'center', 
-            fontSize: 13 
+            fontSize: 14 
           }}>
             Unit 2, Ballyvourney Industrial Estate, Ballyvourney, Co. Cork • Tel: 0863954279 • Email: jbforklifttraining@gmail.com
           </p>
