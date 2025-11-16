@@ -44,7 +44,7 @@ export default function Home() {
             textAlign: 'center', 
             fontSize: 14 
           }}>
-            Unit 2, Ballyvourney Industrial Estate, Ballyvourney, Co. Cork • Tel: 0863954279 • Email: jbforklifttraining@gmail.com
+            Unit 2, Ballyvourney Industrial Estate, Ballyvourney, Co. Cork • Contact Jeff at 0863954279 • Email: jbforklifttraining@gmail.com
           </p>
         </div>
       </header>
@@ -272,7 +272,7 @@ export default function Home() {
       {/* Footer */}
       <footer style={{ background: navyBlue, color: '#fff', borderTop: `3px solid ${gold}` }}>
         <div style={{ ...container, padding: '20px 20px', fontSize: 14 }}>
-          JB Forklift Training • Unit 2, Ballyvourney Industrial Estate, Ballyvourney, Co. Cork • Tel: 0863954279 • Email: jbforklifttraining@gmail.com
+          JB Forklift Training • Unit 2, Ballyvourney Industrial Estate, Ballyvourney, Co. Cork • Contact Jeff at 0863954279 • Email: jbforklifttraining@gmail.com
         </div>
       </footer>
     </main>
